@@ -16,5 +16,7 @@ public class Navigation {
         System.out.println("Return to buttons url "+driver.getCurrentUrl());
         driver.navigate().refresh();
         driver.quit();
+
+
     }
 }
